@@ -68,6 +68,29 @@ export const projects: Project[] = [
     tags: ['TypeScript', '油猴'],
   },
   {
+    name: 'easy-pow',
+    href: 'https://github.com/lucky845/easy-pow',
+    description:
+      'Java 版 PoW 无感验证码，协议兼容 altcha 前端。核心零依赖，另提供 Spring Boot Starter；难度按请求自适应，多实例走 Redis 存挑战，不用看图点字。',
+    tags: ['Java', '验证码', 'Maven'],
+  },
+  {
+    name: 'new-tab-extension',
+    href: 'https://microsoftedge.microsoft.com/addons/detail/pkkmiidnofcdhdimddpoifbpdknmfjil',
+    description:
+      '纯本地、零后端的新标签页扩展：Picsum 壁纸、时钟、天气、待办、便签、番茄钟挤在一页。不需要任何 API Key，数据只进 chrome.storage.local，不上报。',
+    tags: ['Chrome 扩展', '零后端'],
+    live: true,
+  },
+  {
+    name: 'translation-chrome-extension',
+    href: 'https://microsoftedge.microsoft.com/addons/detail/henmhjmgjajggnhhopblkgclfoalblan',
+    description:
+      '一键翻译整个网页，保留链接、图片和原排版。Manifest V3、零构建、零运行时依赖，45 个测试覆盖核心逻辑。',
+    tags: ['Chrome 扩展', '翻译'],
+    live: true,
+  },
+  {
     name: 'daily-commit-bot',
     href: 'https://github.com/lucky845/daily-commit-bot',
     description:
