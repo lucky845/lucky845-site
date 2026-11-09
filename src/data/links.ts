@@ -41,6 +41,12 @@ export const elsewhereLinks: LinkItem[] = [
     external: true,
   },
   {
+    label: '番剧日历',
+    href: 'https://animetimeline.lucky845.top/',
+    note: '每周排播，可导出 ics 订阅',
+    external: true,
+  },
+  {
     label: '邮箱',
     href: 'mailto:1447545564@qq.com',
     note: '合作、提问、纠错都可以直接发',

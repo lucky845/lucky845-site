@@ -40,10 +40,11 @@ export const projects: Project[] = [
   },
   {
     name: 'AnimeTimeline',
-    href: 'https://github.com/lucky845/AnimeTimeline',
+    href: 'https://animetimeline.lucky845.top/',
     description:
-      '抓番剧放送表整理成 Markdown，可按年和按月取数。每天 8 点（北京时间）自动增量同步并去重，网络异常重试三次，更新结果由 GitHub Actions 归档成带版本的 PR。',
-    tags: ['Python', '爬虫', 'Actions'],
+      '番剧播出日历：按周看当季排播，逐年导出 ics 日历订阅，播出时间自动跟随时区换算。数据来自每天 8 点（北京时间）自动增量同步、去重、失败重试三次的爬虫，脚本源码在 Python 仓库里。',
+    tags: ['Python', '日历', '静态站'],
+    live: true,
   },
   {
     name: 'ts-tetris-game',
