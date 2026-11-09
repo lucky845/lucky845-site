@@ -17,7 +17,7 @@ export const site = {
   blog: 'https://blog.lucky845.top/',
   github: 'https://github.com/lucky845',
   email: 'mailto:1447545564@qq.com',
-  sourceRepo: 'https://github.com/lucky845/lucky845.github.io',
+  sourceRepo: 'https://github.com/lucky845/lucky845-site',
 } as const
 
 /** 站点档案面板上的一行读数 */

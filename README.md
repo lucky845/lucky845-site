@@ -1,4 +1,4 @@
-# lucky845.github.io
+# lucky845-site
 
 [lucky845.top](https://lucky845.top/) 个人主页的源码。Vite + Vue 3 + TypeScript 写成，构建产物由 GitHub Actions 发布到 GitHub Pages。
 

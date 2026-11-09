@@ -47,7 +47,7 @@ export const elsewhereLinks: LinkItem[] = [
   },
   {
     label: '主页源码',
-    href: 'https://github.com/lucky845/lucky845.github.io',
+    href: 'https://github.com/lucky845/lucky845-site',
     note: 'Vite + Vue 3 + TypeScript，组件化维护',
     external: true,
   },
