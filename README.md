@@ -75,4 +75,4 @@ Pages 的 source 设为 **GitHub Actions**（`build_type=workflow`），自定�
 
 ## 数据口径
 
-笔记 146 篇、分类 23 个、标签 209 个、公开项目 9 个、归档 13 页，取自博客侧栏统计与 GitHub 仓库列表；技术栈十项是该博客标签的真实计数。
+笔记 152 篇、分类 23 个、标签 229 个、公开项目 14 个、归档 13 页（2026-11 快照），取自博客侧栏统计与 GitHub 仓库列表；技术栈十项是该博客标签的真实计数。首页 `<meta name="description">` 里的篇数不写死，由 `vite.config.ts` 的 `inject-note-count` 在构建时从 `src/data/blog-stats.json` 注入，统计文件缺失时退回「一百多」。
