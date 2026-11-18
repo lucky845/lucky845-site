@@ -75,12 +75,11 @@ export const projects: Project[] = [
     tags: ['Java', '验证码', 'Maven'],
   },
   {
-    name: 'new-tab-extension',
-    href: 'https://microsoftedge.microsoft.com/addons/detail/pkkmiidnofcdhdimddpoifbpdknmfjil',
+    name: 'new-tab-vue3-chrome-extension',
+    href: 'https://github.com/lucky845/new-tab-vue3-chrome-extension',
     description:
-      '纯本地、零后端的新标签页扩展：Picsum 壁纸、时钟、天气、待办、便签、番茄钟挤在一页。不需要任何 API Key，数据只进 chrome.storage.local，不上报。',
-    tags: ['Chrome 扩展', '零后端'],
-    live: true,
+      '纯本地、零后端的新标签页扩展，已用 Vue 3 + TypeScript + WXT 从原生 JS 版整体重写，做到 v2.2.1：液态玻璃界面、快捷访问与文件夹拖拽、多源壁纸、天气、待办、便签、番茄钟与 14 个小工具。数据只进 chrome.storage.local，不上报；1.x 原生版已归档为只读存档。',
+    tags: ['TypeScript', 'Vue 3', 'Chrome 扩展'],
   },
   {
     name: 'translation-chrome-extension',
